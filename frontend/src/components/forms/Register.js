@@ -39,7 +39,7 @@ const Register = () => {
                         mobile: '',
                         email: '',
                         empID: 0,
-                        designation: 'Manager',
+                        designation: 'Employee',
                         reportingManagerID: 0,
                         branch: 'Guwahati',
                     }}
@@ -160,7 +160,7 @@ const Register = () => {
                                         id="designation"
                                         name="designation"
                                         type="text"
-                                        options={["SDE Intern", "Manager", "Consultant", "Asst. Manager"]}
+                                        options={["Employee"]}
                                     />
                                 </div>
                             </div>

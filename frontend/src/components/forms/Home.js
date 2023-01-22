@@ -56,7 +56,7 @@ const Home = () => {
                     }}
                 >
                     <Form className="flex flex-col items-center max-w-[250px] md:max-w-[400px] w-full mx-auto rounded-lg bg-gray-900 p-8 px-8 my-12">
-                        <h2 className='text-lg md:text-3xl dark:text-white font-bold text-center'>SIGN IN</h2>
+                        <h2 className='text-lg md:text-3xl text-white font-bold text-center'>SIGN IN</h2>
 
                         <div className="flex flex-col items-center text-gray-400 py-2">
                             <TextInput

@@ -20,8 +20,7 @@ const Navbar = () => {
     }, [location])
 
     return (
-        // <nav className="shadow-md w-full" style={{ backgroundColor: '#a0c336' }}>
-        <nav className="bg-gray-400 shadow-md w-full">
+        <nav className="shadow-md w-full" style={{ backgroundColor: '#a0c336' }}>
             <div className="max-w-7xl px-4">
                 <div className="flex justify-between md:justify-start">
                     <div className="flex flex-col md:flex-row justify-between w-full">
@@ -30,6 +29,9 @@ const Navbar = () => {
                                 <img src={logo} alt="unavailable" className="w-32 h-12 md:w-40 md:h-14" />
                             </Link>
                         </div>
+ 
+                        <h3 className="text-2xl md:text-4xl font-bold text-center my-1 md:mt-6">EOD Management Software</h3>
+ 
                         <div className="flex flex-col md:flex-row items-start md:items-center md:space-x-1" id="menu">
                             <Link to="/" className="text-xs md:text-lg px-2 py-4 text-slate-50 font-semibold hover:text-red-500 transition duration-300">Home</Link>
 
